@@ -1,0 +1,25 @@
+{
+  "name": "node_cluster_performance",
+  "version": "1.0.0",
+  "description": "",
+  "exports": [
+    "./HashTable/recurring.js"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "tsc -w",
+    "nodemon": "nodemon --watch",
+    "all": "start npm run ts & npm run nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14"
+  }
+}
